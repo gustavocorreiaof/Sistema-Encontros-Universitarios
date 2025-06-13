@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import Botao from '../Botao'
-import CampoTexto from '../CampoTexto'
-import './Formulario.css'
+import CPF from '../CamposDeTexto/CPF/Index'
+import './Login.css'
+import Senha from '../CamposDeTexto/Senha/Senha'
 
-const Login = (props) => {
+const Login = () => {
 
     const [cpf, setCpf] = useState('')
     const [senha, setSenha] = useState('')
@@ -34,7 +35,7 @@ const Login = (props) => {
     return (
         <section className="formulario">
             <form onSubmit={aoSalvar}>                
-                <CampoTexto 
+                <CPF 
                     obrigatorio={true}
                     label="CPF"
                     placeholder="Digite seu CPF" 
@@ -42,13 +43,9 @@ const Login = (props) => {
                     aoAlterado={aoAlterarCPF}
                 />
 
-                <CampoTexto
-                    obrigatorio={true}
-                    label="Senha"
-                    placeholder="Digite sua Senha" 
+                <Senha
                     valor={senha}
                     aoAlterado={valor => setSenha(valor)}
-                    tipoDoCampo="password"
                 />                
                 <Botao>
                     Entrar

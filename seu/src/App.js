@@ -1,4 +1,4 @@
-import Login from "./componentes/Formularios/Login";
+import Login from "./componentes/Login/Login";
 
 function App() {
   return (
