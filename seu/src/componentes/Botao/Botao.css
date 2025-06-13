@@ -1,0 +1,21 @@
+.botao {
+    background-color: #110092;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 16px 24px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    margin: 32px 0;
+}
+
+.divBotao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .botao:hover {
+    perguntar se deve ter isso
+} */
