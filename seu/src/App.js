@@ -1,9 +1,10 @@
+import Cabecalho from "./componentes/compartilhado/cabecalho";
 import Login from "./componentes/Login/Login";
 
 function App() {
   return (
     <div>
-      <Login></Login>
+      <Cabecalho></Cabecalho>
     </div>
   );
 }
