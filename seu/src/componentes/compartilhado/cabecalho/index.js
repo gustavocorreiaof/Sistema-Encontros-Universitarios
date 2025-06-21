@@ -1,8 +1,10 @@
 import './Cabecalho.css'
+import './LogoAndTitle.css'
+import './NavBar.css'
 import LogoLetras from '../../../Imagens/LogoLetras.png';
 import LogoSIEU from '../../../Imagens/LogoSIEU.png';
 
-const Cabecalho = () =>{
+const Cabecalho = () => {
     return(
         <div className='cabecalho'>
             <div className='LogoAndTitle'>
@@ -11,16 +13,20 @@ const Cabecalho = () =>{
                 </div>
                 <div className='Title'>
                     <img src={LogoLetras}></img>
-                </div>
-                
+                </div>                
             </div>
 
-            <div className='NavBar'>
-                2
+            <div className='Center'>
+                <nav className='navBar'>
+                    <a href='/'>Palestras</a>
+                    <a href='/'>Sobre</a>
+                </nav>
             </div>
             
             <div className='LoggedUser'>
-                3
+                <div>
+                    Gustavo Correia
+                </div>
             </div>
         </div>
     )

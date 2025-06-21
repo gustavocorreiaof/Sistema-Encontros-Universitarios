@@ -1,0 +1,23 @@
+.navBar a {
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.navBar a::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    top: 100%;
+    left: 0;
+    height: 2px;
+    background: #000000;
+    transition: .3s;
+}
+
+.navBar a:hover::before{
+    width: 100%;
+}

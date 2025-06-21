@@ -3,7 +3,7 @@
   position: absolute; 
   top: 0px; 
   left: -1px; 
-  width: 100%; 
+  width: 98%; 
   height: 56px; 
   background: #FFFFFFFF; 
   border-radius: 0px; 
@@ -15,26 +15,7 @@
   padding: 0 16px;  
 }
 
-.LoggedUser, .NavBar, .LogoAndTitle{
+.LoggedUser, .Center, .LogoAndTitle{
     max-width: 33%;
 }
 
-.LogoAndTitle {
-  display: flex;
-  align-items: center;
-  height: 56px; 
-}
-
-.Logo img, .Title img {
-  display: block;
-  width: auto;
-}
-
-.Logo {
-    height: 40px;
-    margin-right: 10px;
-}
-
-.Title img{
-  height: 25px;
-}

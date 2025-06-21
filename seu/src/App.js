@@ -1,4 +1,4 @@
-import Cabecalho from "./componentes/compartilhado/cabecalho";
+import Cabecalho from "./componentes/compartilhado/Cabecalho";
 import Login from "./componentes/Login/Login";
 
 function App() {
