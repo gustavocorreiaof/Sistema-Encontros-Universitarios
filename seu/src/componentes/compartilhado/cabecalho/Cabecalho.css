@@ -10,12 +10,27 @@
   box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1F;
 
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 16px;  
+  min-width: 400px;
 }
 
 .LoggedUser, .Center, .LogoAndTitle{
     max-width: 33%;
 }
 
+@media (max-width: 600px) {
+  .Title {
+    display: none;
+  }
+  
+  .Logo img {
+    margin-right: 0;
+  }
+
+  .Center {
+    max-width: 80%;
+  }
+}

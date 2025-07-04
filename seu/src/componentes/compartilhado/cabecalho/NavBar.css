@@ -21,3 +21,10 @@
 .navBar a:hover::before{
     width: 100%;
 }
+
+.navBar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
