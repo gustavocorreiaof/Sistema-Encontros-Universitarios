@@ -39,6 +39,58 @@ const SecaoExplorarEventos = () =>{
                     horario="08:30 PM"
                     localizacao="Crateús, CE"
                 />
+
+                <PalestraCartao
+                    imagem="https://i.imgur.com/HJNz8CT.png"
+                    titulo="Eu entendendo tudo"
+                    data="Thursday, September 16"
+                    horario="08:30 PM"
+                    localizacao="Crateús, CE"
+                />
+
+                
+                <PalestraCartao
+                    imagem="https://i.imgur.com/2gXmHhB.png"
+                    titulo="Eu entendendo só a metade"
+                    data="Thursday, September 16"
+                    horario="08:30 PM"
+                    localizacao="Crateús, CE"
+                />
+
+                
+                <PalestraCartao
+                    imagem="https://i.imgur.com/ZeD5yw7.png"
+                    titulo="Eu sem entender porra nenhuma"
+                    data="Thursday, September 16"
+                    horario="08:30 PM"
+                    localizacao="Crateús, CE"
+                />
+
+                <PalestraCartao
+                    imagem="https://i.imgur.com/HJNz8CT.png"
+                    titulo="Eu entendendo tudo"
+                    data="Thursday, September 16"
+                    horario="08:30 PM"
+                    localizacao="Crateús, CE"
+                />
+
+                
+                <PalestraCartao
+                    imagem="https://i.imgur.com/2gXmHhB.png"
+                    titulo="Eu entendendo só a metade"
+                    data="Thursday, September 16"
+                    horario="08:30 PM"
+                    localizacao="Crateús, CE"
+                />
+
+                
+                <PalestraCartao
+                    imagem="https://i.imgur.com/ZeD5yw7.png"
+                    titulo="Eu sem entender porra nenhuma"
+                    data="Thursday, September 16"
+                    horario="08:30 PM"
+                    localizacao="Crateús, CE"
+                />
             </div>
 
         </div>

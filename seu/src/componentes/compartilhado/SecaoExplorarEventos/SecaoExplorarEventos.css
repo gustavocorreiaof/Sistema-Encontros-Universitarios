@@ -11,12 +11,15 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-top: 56px;
 }
 
 .explorar-eventos-pesquisar{
     background-color: #FFFFFFFF;
     max-width: 500px;
     border-radius: 6px; 
+    gap: 12px;
+    flex-wrap: wrap;
 }
 
 
@@ -51,4 +54,8 @@
   display: flex;
   gap: 20px;
   flex-direction: row;
-  flex-wrap: wrap;}
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+}
