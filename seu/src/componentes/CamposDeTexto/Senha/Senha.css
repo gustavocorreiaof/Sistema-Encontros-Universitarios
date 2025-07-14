@@ -1,17 +1,3 @@
-.campo-texto__container {
-    position: relative;
-    width: 100%;
-}
-
 .campo-texto__container input {
-    padding-right: 60px; /* espaço para o ícone */
-}
-
-.campo-texto__icone {
-    position: absolute;
-    top: 50%;
-    right: 24px;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: #888;
+    padding-left: 60px;
 }

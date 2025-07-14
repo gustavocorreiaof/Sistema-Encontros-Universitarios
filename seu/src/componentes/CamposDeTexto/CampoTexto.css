@@ -11,10 +11,34 @@
 .campo-texto input {
     background-color: #FFF;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100%;
     border: none;
     font-size: 24px;
     padding: 24px;
     box-sizing: border-box;
+}
+
+.campo-texto__icone {
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.campo-texto__container {
+    position: relative;
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 10px;    
+    border: 1px solid #a6a7a9;
+}
+
+.campo-texto_icone_esquerda{
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    transform: translateY(-50%);
+    color: #888;
 }
