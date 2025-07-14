@@ -16,6 +16,10 @@
     align-items: center;
 }
 
+.com-sombra {
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
 /* .botao:hover {
     perguntar se deve ter isso
 } */

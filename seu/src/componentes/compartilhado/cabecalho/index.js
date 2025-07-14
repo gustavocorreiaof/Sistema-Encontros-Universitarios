@@ -4,7 +4,7 @@ import './NavBar.css'
 import LogoLetras from '../../../Imagens/LogoLetras.png';
 import LogoSIEU from '../../../Imagens/LogoSIEU.png';
 
-const Cabecalho = () => {
+const Cabecalho = ( {setOpen}) => {
     return(
         <div className='cabecalho'>
             <div className='LogoAndTitle'>
@@ -25,7 +25,7 @@ const Cabecalho = () => {
             
             <div className='LoggedUser'>
                 <div>
-                    Gustavo Correia
+                    <button onClick={() => setOpen(true)}>Check-In</button>
                 </div>
             </div>
         </div>
